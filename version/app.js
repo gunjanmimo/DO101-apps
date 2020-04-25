@@ -2,10 +2,11 @@ const express = require('express');
 app = express();
 
 var response;
-
+var response2;
 app.get('/', function (req, res) {
 
-    response = 'This is version 2 of the app.' + '\n';
+    response = 'This is version 1 of the app.' + '\n';
+    response2= 'This is version 2 of the app.' + '\n';
 
     //send the response to the client
     res.send(response);
