@@ -5,13 +5,13 @@ var response;
 var response2;
 app.get('/', function (req, res) {
 
-    response = 'This is version 3 of the app.' + '\n';
-    response2="V3\nRelase: Ape 26";
+    response = 'This is version 4 of the app.' + '\n';
+    response2="V4\nRelase: Ape 26";
 
 
     //send the response to the client
-    res.send(response);
-    res.send(response2);
+    res.send(response+"\n"+response2);
+    
 
 });
 
