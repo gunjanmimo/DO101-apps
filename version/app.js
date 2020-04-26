@@ -6,7 +6,7 @@ var response2;
 app.get('/', function (req, res) {
 
     response = 'This is version 3 of the app.' + '\n';
-    response2="V2\nRelase: Ape 26";
+    response2="V3\nRelase: Ape 26";
 
 
     //send the response to the client
